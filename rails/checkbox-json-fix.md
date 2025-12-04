@@ -14,4 +14,4 @@ end
 def looking_for_skill_ids
   super&.map(&:to_i)
 end
-これにより編集ページでも選択状態が正しく保持されるようになった。
+
